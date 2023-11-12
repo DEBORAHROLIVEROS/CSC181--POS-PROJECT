@@ -1,0 +1,116 @@
+.sidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from the parent element */
+}
+
+.sidebar button {
+    text-decoration: none; /* Remove underline from buttons */
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: inherit; /* Inherit text color from the parent element */
+}
+
+  
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #1b2944, #577ca0);
+    padding: 20px 0;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the buttons */
+.sidebar button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    background: #577ca0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sidebar button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #1b2944;
+    border-radius: 0 25px 25px 0;
+}
+
+.sidebar button img {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.sidebar button:hover {
+    background: #1b2944;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: -350px;
+    width: 100%;
+}
+
+/* Style for the sales overview */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100vh;
+    margin-left: 270px; /* Adjust the margin-left as needed */
+    padding: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for CORNERCUP */
+#cornercup-title {
+    font-family: 'League Spartan';
+    color: #577ca0;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0;
+}
+
+#cornercup-table {
+    color: black;
+    margin: 100px;
+}
+
+#cornercup-table th {
+    background-color: #577ca0;
+    color: black;
+}
+
+#cornercup-table td {
+    background-color: #577ca0;
+    color: white;
+}
