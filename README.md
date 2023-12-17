@@ -1,3 +1,10 @@
-# CSC181--POS-PROJECT
+# CSC181--CORNERCUP POINT OF SALES(POS) PROJECT
 
-#This is only the partial of our project. And every documents here might be revise in the future if needed.
+# Hello! We are the 3rd-Year Statistics of Mindanao State University - Iligan Institute of Technology. This is our final project in CSC181-Software Engineering. The following members of this group project are:
+
+# Bedol, Zaira Mae
+# Celicious, Christine Berna
+# Ebcay, Cristine Joy
+# Oliveros, Deborah
+# Payusan, Jurizza 
+# Salera, Keen Hart
